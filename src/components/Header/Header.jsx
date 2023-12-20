@@ -52,7 +52,7 @@ const Header = () => {
             onClose={handleCloseNavMenu}
           >
             <MenuItem onClick={handleCloseNavMenu}>
-             <Link to='/logout' style={{ textDecoration: 'none',color:"white"}}><ExitToAppIcon sx={{ mr: 1 }} />
+             <Link to='/logout' style={{ textDecoration: 'none',color:"black"}}><ExitToAppIcon sx={{ mr: 1 }} />
               Logout</Link> 
             </MenuItem>
           </Menu>
